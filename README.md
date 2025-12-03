@@ -4,6 +4,8 @@
 A lightweight React + Vite dashboard that visualizes **mock OCI (Oracle Cloud Infrastructure)** resources across regions, services, and compartments.
 Ideal for demos, workshops, screenshots, and concept design — **no real OCI credentials or backend required.**
 
+https://scorpionlabs-cloud.github.io/oci-eagle-eye/
+
 ---
 
 ## 🚀 Features
