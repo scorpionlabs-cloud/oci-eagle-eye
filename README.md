@@ -1,127 +1,81 @@
-**OCI Eagle Eye — Global OCI Resource View (Mock)**
 
-OCI Eagle Eye is a lightweight, front-end-only React dashboard that gives a clean “global console” view of Oracle Cloud resources using mock data.
-Perfect for demos, workshops, architecture discussions, and screenshots — with no real tenancy access required.
+# OCI Eagle Eye (Mock Dashboard)
 
-This project is built with Vite + React, deployable to GitHub Pages, and fully self-contained.
+A lightweight React + Vite dashboard that visualizes **mock OCI (Oracle Cloud Infrastructure)** resources across regions, services, and compartments.
+Ideal for demos, workshops, screenshots, and concept design — **no real OCI credentials or backend required.**
 
-✨ Features
-🌍 Global Region Overview
+---
 
-Region health (Healthy / Degraded / Read-only)
+## 🚀 Features
 
-Active resources count
+* 🌍 **Global Region Overview**
+  Health, cost, active resources, and incidents (mock data)
 
-Critical incidents
+* 🧭 **Resource Inventory Table**
+  Filter by region, service, compartment, or keyword
 
-Estimated cost for the day (mock)
+* 🧱 **Compartment Zoom Panel**
+  Click any resource to see a breakdown of services and active assets in that compartment
 
+* 🎨 **Fully static, front-end only**
+  Safe to host on GitHub Pages or any static site
 
-🧭 Resource Inventory Table
+---
 
-Filter by Region, Service, Compartment, and Search
+## 📦 Install & Run Locally
 
-Click any resource row to instantly zoom in to its compartment
-
-Supports OKE, Compute, ADB, LB, Object Storage, Functions, Networking, etc. (mock data)
-
-
-🧱 Compartment Zoom Panel
-
-Clicking a resource shows:
-
-Resources per compartment
-
-Active resources
-
-Regions spanned
-
-Services breakdown
-
-Owner, environment (Prod/Dev/Shared), description
-
-Sample resources preview
-
-
-💡 Fully Front-End Only
-
-No backend
-
-No OCI APIs
-
-Safe for public hosting
-
-Ideal for GitHub Pages, S3/OCI Object Storage hosting, or offline demos
-
-
-📦 Project Structure
-oci-eagle-eye/
-  index.html
-  package.json
-  vite.config.js
-  src/
-    App.jsx
-    main.jsx
-    ociResources.js
-    index.css
-
-
-Note: node_modules is intentionally not included to keep the repo clean.
-
-▶️ Run Locally
-Requirements
-
-Node.js 18+
-
-npm
-
-Steps
+```bash
 npm install
 npm run dev
+```
 
+Then open the URL shown in your terminal (usually [http://localhost:5173](http://localhost:5173)).
 
-Then open:
+---
 
-http://localhost:5173
+## 🌐 Deploy to GitHub Pages
 
+This project already includes:
 
-🌐 Deploy to GitHub Pages
+* `vite.config.js` with correct `base` path
+* `gh-pages` deployment script
 
-This repo already includes:
+Deploy with:
 
-gh-pages package
-
-predeploy and deploy scripts
-
-Correct Vite config:
-
-base: "/oci-eagle-eye/"
-
-Deploy
-npm install
+```bash
 npm run deploy
-
+```
 
 Your dashboard will be published to:
 
-https://<your-username>.github.io/oci-eagle-eye/
+```
+https://<your-github-username>.github.io/oci-eagle-eye/
+```
 
+---
 
-🚀 Future Enhancements
+## 📁 Project Structure
 
-Planned expansions:
+```
+oci-eagle-eye/
+  index.html
+  vite.config.js
+  package.json
+  src/
+    App.jsx
+    main.jsx
+    index.css
+    ociResources.js
+```
 
-Real OCI API integration (read-only)
+---
 
-Cost overlays per compartment
+## ⚠️ Disclaimer
 
-Anomaly/incident visual layer
+This is a **mock dashboard**.
+All OCI regions, services, metrics, and costs are **synthetic** and used only for educational or demo purposes.
 
-Region heatmaps
-
-Service maps & topology view
-
-AI-driven cloud insights
+---
 
 
 📜 License
