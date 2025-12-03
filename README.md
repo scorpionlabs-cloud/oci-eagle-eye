@@ -76,20 +76,3 @@ This is a **mock dashboard**.
 All OCI regions, services, metrics, and costs are **synthetic** and used only for educational or demo purposes.
 
 ---
-
-
-📜 License
-
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
-This license ensures the project remains free and open-source, allowing anyone to:
-
-✔️ Use the software
-
-✔️ Modify it
-
-✔️ Share it
-
-✔️ Distribute modified versions
-
-However, any redistributed or modified version must also be released under GPL-3.0, ensuring the same freedoms are preserved.
-If you distribute binaries, you must also provide access to the source code.
