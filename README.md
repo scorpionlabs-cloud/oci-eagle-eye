@@ -1,4 +1,4 @@
-OCI Eagle Eye — Global OCI Resource View (Mock)
+**OCI Eagle Eye — Global OCI Resource View (Mock)**
 
 OCI Eagle Eye is a lightweight, front-end-only React dashboard that gives a clean “global console” view of Oracle Cloud resources using mock data.
 Perfect for demos, workshops, architecture discussions, and screenshots — with no real tenancy access required.
@@ -16,6 +16,7 @@ Critical incidents
 
 Estimated cost for the day (mock)
 
+
 🧭 Resource Inventory Table
 
 Filter by Region, Service, Compartment, and Search
@@ -23,6 +24,7 @@ Filter by Region, Service, Compartment, and Search
 Click any resource row to instantly zoom in to its compartment
 
 Supports OKE, Compute, ADB, LB, Object Storage, Functions, Networking, etc. (mock data)
+
 
 🧱 Compartment Zoom Panel
 
@@ -40,6 +42,7 @@ Owner, environment (Prod/Dev/Shared), description
 
 Sample resources preview
 
+
 💡 Fully Front-End Only
 
 No backend
@@ -49,6 +52,7 @@ No OCI APIs
 Safe for public hosting
 
 Ideal for GitHub Pages, S3/OCI Object Storage hosting, or offline demos
+
 
 📦 Project Structure
 oci-eagle-eye/
@@ -80,6 +84,7 @@ Then open:
 
 http://localhost:5173
 
+
 🌐 Deploy to GitHub Pages
 
 This repo already includes:
@@ -101,6 +106,7 @@ Your dashboard will be published to:
 
 https://<your-username>.github.io/oci-eagle-eye/
 
+
 🚀 Future Enhancements
 
 Planned expansions:
@@ -116,6 +122,7 @@ Region heatmaps
 Service maps & topology view
 
 AI-driven cloud insights
+
 
 📜 License
 
